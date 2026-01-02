@@ -10,6 +10,11 @@ from django.conf import settings
 from django.urls import reverse
 
 
+from deep_translator import GoogleTranslator 
+
+translated = GoogleTranslator(source='auto', taret='en').translate()
+
+
 def home(request):
     return render(request, 'Base/home.html')
 
