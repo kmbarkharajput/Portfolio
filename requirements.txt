@@ -31,7 +31,7 @@ fsspec==2025.9.0
 gast==0.6.0
 google==3.0.0
 google-pasta==0.2.0
-googletrans==4.0.2
+googletrans==4.0.0-rc1
 greenlet==3.2.4
 grpcio==1.73.0
 gTTS==2.2.4
